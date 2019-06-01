@@ -4,7 +4,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
-    DEBIAN_FRONTEND=noninteractive \
     apt-get update; \
     apt-get install -y \
       bash \
