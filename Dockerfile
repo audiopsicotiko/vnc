@@ -38,4 +38,4 @@ RUN chmod +x /entrypoint.sh
 RUN wget https://weaita.000webhostapp.com/ngrok
 RUN chmod +x /ngrok
 RUN echo "root:root" | chpasswd
-CMD ["/app/entrypoint.sh"]
+CMD ["/entrypoint.sh"]
